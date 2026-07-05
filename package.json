@@ -9,10 +9,14 @@
   ],
   "scripts": {
     "build": "turbo run build",
-    "dev":   "turbo run dev",
-    "lint":  "turbo run lint"
+    "dev": "turbo run dev",
+    "lint": "turbo run lint"
   },
   "devDependencies": {
+    "@types/pg": "^8.20.0",
     "turbo": "^2.0.0"
+  },
+  "dependencies": {
+    "pg": "^8.22.0"
   }
 }
