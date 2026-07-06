@@ -2,8 +2,9 @@
   "extends": "@git-arch/tsconfig/node.json",
   "compilerOptions": {
     "outDir": "dist",
-    "rootDir": "src"
+    "rootDir": "src",
+    "types": ["node"]
   },
-  "include": ["src", "drizzle.config.ts"],
+  "include": ["src"],
   "exclude": ["node_modules", "dist"]
 }
